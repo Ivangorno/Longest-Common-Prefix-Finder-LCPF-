@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8387a32f-583d-423a-a0dd-98f77a11dc0c" name="Changes" comment="Implemented Longest Common Prefix Finder">
+    <list default="true" id="8387a32f-583d-423a-a0dd-98f77a11dc0c" name="Changes" comment="added ArrayList of words to compare (instead of just three words)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LCPF/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LCPF/Solution.java" afterDir="false" />
     </list>
@@ -80,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662650215277</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added ArrayList of words to compare (instead of just three words)">
+      <created>1663018458562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663018458562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented Longest Common Prefix Finder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Longest Common Prefix Finder" />
+    <MESSAGE value="added ArrayList of words to compare (instead of just three words)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ArrayList of words to compare (instead of just three words)" />
   </component>
 </project>

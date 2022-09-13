@@ -12,13 +12,15 @@ public class Solution {
 
         System.out.println("Enter the first word: ");
         Scanner input = new Scanner(System.in);
-        listOfWords.add(input.nextLine());
+        String word = input.nextLine();
+        listOfWords.add(word);
 
-        System.out.println("Enter another word to compere OR enter \"any number\" to stop: ");
-        while (!input.hasNextInt()){
-            System.out.println("Enter another word to compere OR enter \"any number\" to stop: ");
+        while (!word.equalsIgnoreCase("end")){
+            System.out.println("Enter another word to compere OR enter \"End\" to stop: ");
             word  = input.nextLine();
             listOfWords.add(word);}
+
+        listOfWords.remove(listOfWords.size()-1);
 
     }
     public static String findPrefix() {
@@ -37,16 +39,14 @@ public class Solution {
             shortestWord = word;
             }
 
-
-
       for (int i = 0; i< shortestWord.length();i++){
-          char prefix = listOfWords.get(0).charAt(i);
-          for (String word : listOfWords) {
-              if (word.charAt(i) != prefix){
+          char oneChar = listOfWords.get(0).charAt(i);
+          for (String currentWord : listOfWords) {
+              if (currentWord.charAt(i) != oneChar){
                   return commonPrefix.toString();
               }
           }
-          commonPrefix.append(prefix);
+          commonPrefix.append(oneChar);
       }
 
     return  commonPrefix.toString();
