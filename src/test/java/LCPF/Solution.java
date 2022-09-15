@@ -1,11 +1,11 @@
 package LCPF;
 
 import java.util.ArrayList;
-import java.util.List;
+
 import java.util.Scanner;
 
 public class Solution {
-  static ArrayList<String> listOfWords = new ArrayList<>();
+   static  ArrayList<String> listOfWords = new ArrayList<>();
   static String word;
 
     private static void input() {
@@ -39,15 +39,18 @@ public class Solution {
             shortestWord = word;
             }
 
+
+        if (listOfWords.size() == 1){return "";}
+        else {
       for (int i = 0; i< shortestWord.length();i++){
           char oneChar = listOfWords.get(0).charAt(i);
           for (String currentWord : listOfWords) {
               if (currentWord.charAt(i) != oneChar){
-                  return commonPrefix.toString();
+                 return commonPrefix.toString();
               }
           }
           commonPrefix.append(oneChar);
-      }
+      }}
 
     return  commonPrefix.toString();
 

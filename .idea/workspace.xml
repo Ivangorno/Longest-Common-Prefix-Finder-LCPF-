@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8387a32f-583d-423a-a0dd-98f77a11dc0c" name="Changes" comment="added ArrayList of words to compare (instead of just three words)">
+    <list default="true" id="8387a32f-583d-423a-a0dd-98f77a11dc0c" name="Changes" comment="Changed command to stop from &quot;any int&quot; to String &quot;end&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LCPF/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LCPF/Solution.java" afterDir="false" />
     </list>
@@ -43,13 +43,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JAVA/Idea projects/Longest_Common_Prefix_Finder&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/JAVA/Idea projects/Longest_Common_Prefix_Finder"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="LCPF" />
@@ -87,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663018458562</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed command to stop from &quot;any int&quot; to String &quot;end&quot;">
+      <created>1663064460641</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663064460641</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +111,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented Longest Common Prefix Finder" />
     <MESSAGE value="added ArrayList of words to compare (instead of just three words)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ArrayList of words to compare (instead of just three words)" />
+    <MESSAGE value="Changed command to stop from &quot;any int&quot; to String &quot;end&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed command to stop from &quot;any int&quot; to String &quot;end&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="room" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
